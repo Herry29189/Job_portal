@@ -1,0 +1,303 @@
+
+.body{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+
+.banner{
+ background-color:  rgb(249, 227, 220);
+
+}
+
+.color{
+  color:#f4cdb1;
+}
+
+.navbar{
+  background-color: white ;
+  
+}
+.btn1{
+  padding: 10px 25px;
+}
+
+
+.carousel-item{
+  padding-top: 90px;
+  padding-bottom: 50px;
+  
+}
+.container{
+  transition-duration: 1.4s;
+  transition-property: opacity,transform;
+}
+
+.button {
+  background-color: #ED7014; 
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+.bn{
+  margin: inherit;
+}
+
+.button1 {
+  background-color: white; 
+  color: #ED7014; 
+  border: 1px solid #ffcead;
+  padding: 4px 20px;
+}
+
+.button1:hover {
+  background-color: white;
+  color: orange;
+}
+
+.box input{
+  padding: 10px 100px;
+  height: 45px;
+}
+
+.web {
+  padding: 2px 300px;
+}
+
+.p{
+  padding: 8px 50px;
+}
+
+.padding1{
+  padding: 2px 250px;
+}
+
+
+
+.get-started-upper{
+  margin-top: 120px;
+  width:100%;
+  height:160px;
+  border:2px solid #ffe8d7;
+  
+  
+}
+
+.get-started{
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.get-started div p{
+  font-size: 2rem;
+  font-weight:bold ;
+  line-height: 28px;
+  color:black;
+  /* padding-left: 40px; */
+  margin-left: 0px;
+  margin-top: 25px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.get-started-btn button{
+  background-color: #ED7014;
+  border-radius: 0px;
+  margin-top: 35px;
+  padding:10px;
+  color:white;
+}
+
+/* styling of the browse job section */
+
+.browse-jobs{
+    margin-top:50px;
+    padding-top: 100px;
+    /* margin-bottom: 50px; */
+}
+
+.heading{
+    font-size: 35px;
+    font-weight:500;
+}
+
+
+.font{
+  color: #091e42;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 40px;
+}
+
+.job-catagories ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    width:70%;
+    margin:auto;
+    /* border:2px solid red; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    padding-top:10px;
+    /* transition-duration: 0.4s; */
+    
+}
+
+.custom p{
+    padding:0px;
+}
+
+.job-catagories ul li{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.job-catagories ul li p{
+    font-size: 20px;
+    font-weight: 150px;
+  
+    padding:1px  10px;
+    
+}
+
+
+.row {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+div.noName.border.p-3{
+    width:450px;
+    height: 180px;
+}
+
+.slider{
+    margin-top:40px;
+    text-align: center;
+    word-spacing: 8px;
+}
+
+.slider span{
+    border-radius: 100%;
+    border:1px solid #ED7014;
+    padding:12px;
+}
+
+.slider :hover{
+    background-color: #ed7408;
+    transition: 0.8s;
+    animation-direction:alternate-reverse;
+}
+
+/* stling of the counter */
+.counter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.counter div{
+    margin-top:20px;
+
+}
+
+.full-counter{
+    margin-top:800px;
+    width:100%;
+    padding:20px;
+    background-color: #ed7408;
+}
+
+.job{
+  margin-top: 150px;
+  height: 200px;
+  margin-left: 200px;
+  margin-bottom: 150px;
+  
+}
+
+.index{
+
+    margin-top: 150px;
+    height: auto;
+    margin-left: 200px;
+  
+  
+}
+.over{
+
+  overflow: hidden;
+  position: relative;
+}
+.flow{
+  position: absolute;
+  left:640px;
+  background-color: white;
+  top:120px;
+}
+
+.log{
+  padding: 10px 150px;
+  margin-top: 50px;
+}
+
+.h{
+  height: 500px;
+}
+
+.r{
+
+  border-radius: 20px;
+  padding: 7px 15px;
+  font-size: small;
+}
+
+.mgn{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.narrowFormats p {
+  color:rgb(104, 104, 104);
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  width: -webkit-fit-content;
+  width: fit-content;
+  padding-right: 12px;
+  font-weight: 500;
+ 
+}
+
+.bd{
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.b{
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+
+

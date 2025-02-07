@@ -1,0 +1,48 @@
+<div class="login-wrapper col s6 card">
+    <div class="gutter">
+        <form name="loginForm" id="loginForm" class="loginForm" novalidate="">
+            <div class="row mb0">
+                <div class="col s12 marginbottom">
+                    <strong class="hdn">Login</strong>
+                </div>
+            </div>
+            <!-- react-text: 51 --><!-- /react-text -->
+            <div>
+                <div class="row mb0">
+                    <div class="input-field col s12">
+                        <span class="lbl">Email ID / Username</span>
+                        <input type="text" id="usernameField" placeholder="Enter Email ID / Username" rel="required:usernameField_required|blur" maxlength="100" autocapitalize="none" value="" autocomplete="off">
+                        <div class="err-container">
+                            <span class="erLbl" id="usernameField_err"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb0">
+                    <div class="input-field password-wrapper col s12">
+                        <span class="lbl">Password</span>
+                        <input type="password" id="passwordField" placeholder="Enter Password" rel="required:passwordField_required|blur" maxlength="40" autocapitalize="none" value="" class="pr-60">
+                        <div class="err-container">
+                            <span class="erLbl" id="passwordField_err"></span>
+                        </div>
+                        <span class="showhide blue-text">
+                            <small class="fs13">Show</small>
+                        </span>
+                        <div class="forgot-password-wrapper">
+                            <a data-ga-track="spa-event|login|forgotPassword|Click" class="blue-text forgot-password-link" href="/nlogin/forgotpassword">
+                                <small class="fs11">Forgot Password?</small>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="action row mb0">
+                    <div class="col s12">
+                        <div class="g-recaptcha" data-sitekey="6Lfr8SEUAAAAACgWL1C--Pup9o8uBElCNXYZ4vfL" data-callback="loginRecaptchaCallback" data-size="invisible">
+                        </div>
+                        <button data-ga-track="spa-event|login|login|Save||||true" class="waves-effect waves-light btn-large btn-block btn-bold blue-btn textTransform" type="submit">Login</button>
+                        <button class="waves-effect waves-light btn-large btn-block btn-bold otpButton textTransform" type="submit">Use OTP to Login</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
